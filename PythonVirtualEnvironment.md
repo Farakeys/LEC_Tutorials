@@ -15,10 +15,10 @@ Ou
 5. Criar o repositório *git* dentro de sua pasta de projeto e criar um arquivo *.gitignore* onde serão especificados os arquivos e pastas que não serão sincronizados:
 ```git init```
 O windows não apresenta suporte para criação de arquivos iniciando com '.' então nesse caso você precisará criar o arquivo com um nome qualquer (use o notepad, notepad++ ou VScode para isso) e renomeá-lo para *.gitignore* utilizando o Powershell, GitBash ou outro ambiente de terminal.  
-Sintaxe no Powershell:
-```ren .\gitignore.txt .\.gitignore```
-Sinaxe no GitBash:
-```mv .\gitignore.txt .\.gitignore```
+*Sintaxe no Powershell:*  
+```ren .\gitignore.txt .\.gitignore```  
+*Sinaxe no GitBash:*  
+```mv .\gitignore.txt .\.gitignore```  
 
 # Para as tarefas do dia a dia
 1. Inicializar o ambiente virtual  
